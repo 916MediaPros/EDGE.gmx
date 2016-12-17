@@ -11,20 +11,32 @@
     <sprite>sprites\spr_dev_good</sprite>
     <sprite>sprites\spr_dev_solid</sprite>
     <sprite>sprites\spr_dev_base</sprite>
+    <sprite>sprites\spr_dev_flag</sprite>
+    <sprite>sprites\spr_dev_mark</sprite>
+    <sprite>sprites\spr_dev_cannon</sprite>
+    <sprite>sprites\spr_dev_balista</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_dev</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\path_dev_bad</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\DEV</font>
+  </fonts>
   <objects name="objects">
     <objects name="Ents.">
       <object>objects\ent_dev_good</object>
       <object>objects\ent_dev_bad</object>
+      <object>objects\ent_dev_cannon</object>
+      <object>objects\ent_dev_balista</object>
     </objects>
     <objects name="Obs.">
       <object>objects\ob_dev_tower</object>
-      <object>objects\ob_dev_solid</object>
       <object>objects\ob_dev_base</object>
+      <object>objects\ob_dev_solid</object>
+      <object>objects\ob_dev_flag</object>
     </objects>
     <object>objects\cont_main</object>
   </objects>
