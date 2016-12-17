@@ -15,6 +15,9 @@
     <sprite>sprites\spr_dev_mark</sprite>
     <sprite>sprites\spr_dev_cannon</sprite>
     <sprite>sprites\spr_dev_balista</sprite>
+    <sprite>sprites\spr_dev_gui_stats</sprite>
+    <sprite>sprites\spr_dev_gui_unitmenu</sprite>
+    <sprite>sprites\spr_dev_cam</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev</background>
@@ -39,8 +42,11 @@
       <object>objects\ob_dev_flag</object>
     </objects>
     <object>objects\cont_main</object>
+    <objects name="gui">
+      <object>objects\gui_unitmenu</object>
+    </objects>
+    <object>objects\cont_camera</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_dev_test</room>
   </rooms>
